@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Navbar from '../components/layout/Navbar'
 import { projects, categories } from '../data/projects'
+import Footer from '../components/layout/Footer'
+
 
 function Work() {
   const [active, setActive] = useState('All')
@@ -80,6 +82,8 @@ function Work() {
           </div>
         </div>
       )}
+
+      <Footer />
     </div>
   )
 }

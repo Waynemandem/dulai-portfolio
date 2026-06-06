@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Navbar from '../components/layout/Navbar'
+import Footer from '../components/layout/Footer'
 
 function Contact() {
   const [form, setForm] = useState({ name: '', email: '', message: '' })
@@ -53,6 +54,8 @@ function Contact() {
         </div>
 
       </div>
+      
+      <Footer />
     </div>
   )
 }

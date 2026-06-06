@@ -1,4 +1,5 @@
 import Navbar from '../components/layout/Navbar'
+import Footer from '../components/layout/Footer'
 
 function About() {
   return (
@@ -55,6 +56,7 @@ function About() {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   )
 }
