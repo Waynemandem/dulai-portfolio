@@ -1,4 +1,4 @@
-import heroVideo from 'C:/Users/DELL/dulai-portfolio/src/assets/video_2026-06-06_17-57-11.mp4'
+import heroVideo from '../src/assets/video_2026-06-06_17-57-11.mp4'
 
 function Hero() {
   return (
