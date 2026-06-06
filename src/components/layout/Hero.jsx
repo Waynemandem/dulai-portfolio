@@ -1,5 +1,6 @@
 import heroVideo from "../../assets/video_2026-06-06_17-57-11.mp4"
 
+
 function Hero() {
   return (
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden bg-black">
